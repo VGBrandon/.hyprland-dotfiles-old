@@ -29,7 +29,7 @@ npm                       # Gestor de paquetes JavaScript
 pnpm                      # Gestor de paquetes rapido
 nwg-look                  # Cambios de temas GTK
 bluez                     # Herramientas Bluetooth
-blue-utils                # Utilidades Bluetooth
+bluez-utils                # Utilidades Bluetooth
 swww                      # Gestion de fondos de pantalla
 firefox                   # Navegador web
 rofi                      # Lanzador de aplicaciones
