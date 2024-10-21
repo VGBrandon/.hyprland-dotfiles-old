@@ -28,4 +28,7 @@ echo -e "${GREEN}Se termino de instalar los paquetes oficiales de Archlinux...${
 # Verificar y ejecutar el script de configuracion de Git
 check_file_exists "./configure_git.sh"
 
+# Verificar y ejecutar el script que agrega Windows a GRUB
+check_file_exists "./configure_grub.sh"
+
 echo -e "${GREEN}Instalación de dotfiles completada.${NC}"
