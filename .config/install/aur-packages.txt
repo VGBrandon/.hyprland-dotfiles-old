@@ -1,0 +1,12 @@
+# Paquetes del repositorio AUR hechos por la comunidad de Arch Linux
+
+thunar-shares-plugin            # Plugin para compartir archivos usando Thunar
+google-chrome                   # Navegador web de Google
+visual-studio-code-bin          # Editor de codigo fuente de Microsoft
+waypaper                        # Gestor de fondos de pantalla para Wayland
+cava                            # Visualizador de audio en terminal
+hyprpicker                      # Selector de colore para Hyprland
+image-roll                      # Herramienta para crear imagenes dinamicas
+hyprshot                        # Capturador de pantalla para Hyprland
+python-pywalfox                 # Integracion de pywal con Firefox
+hyprshade                       # Ajusta la tempreatura de color en Hyprland
