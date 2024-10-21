@@ -1,0 +1,39 @@
+# Paquetes del repositorio oficial de Arch Linux
+
+kitty                     # Emulador de terminal
+waybar                    # Barra de estado para Wayland
+neofetch                  # Muestra informacion del sistema
+thunar                    # Administrador de archivos
+font-manager              # Gestor de fuentes
+tree                      # Muestra directorios en arbol
+curl                      # Herramienta de transferencia de datos
+git                       # Sistema de control de versiones
+neovim                    # Editor de texto
+zsh                       # Shell de comandos
+zsh-completions           # Completaciones para Zsh
+os-prober                 # Detecta otros sistemas operativos
+ntfs-3g                   # Soporte para NTFS
+tumbler                   # Generador de miniaturas
+ffmpegthumbnailer         # Miniaturas para videos
+thunar-archive-plugin     # Manejo de archivos comprimidos
+thunar-media-tags-plugin  # Gestion de etiquetas en Thunar
+thunar-volman             # Montaje de dispositivos en Thunar
+ark                       # Gestor de archivos comprimidos
+gvfs                      # Acceso a recursos de sistema de archivos virtual
+polkit-gnome              # Gestion de privilegios en GNOME
+stow                      # Gestion de dotfiles
+gnome-keyring             # Almacen de claves
+seahorse                  # Gestion de claves y contraseñas
+nodejs                    # Entorno de ejecucion JavaScript
+npm                       # Gestor de paquetes JavaScript
+pnpm                      # Gestor de paquetes rapido
+nwg-look                  # Cambios de temas GTK
+bluez                     # Herramientas Bluetooth
+blue-utils                # Utilidades Bluetooth
+swww                      # Gestion de fondos de pantalla
+firefox                   # Navegador web
+rofi                      # Lanzador de aplicaciones
+ripgrep                   # Busqueda rapida de texto
+swappy                    # Capturas de pantalla
+nwg-displays              # Gestor de pantallas
+ttf-font-awesome          # Fuente Awesome
