@@ -38,4 +38,7 @@ sudo -u $USER makepkg -si --noconfirm
 cd ..
 sudo rm -rf yay
 
+# Verificar y ejecutar el script de instalacion de paquetes aur
+check_file_exists "./install-aur-packages.sh"
+
 echo -e "${GREEN}Instalación de dotfiles completada.${NC}"
