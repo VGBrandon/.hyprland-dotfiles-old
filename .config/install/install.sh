@@ -31,4 +31,11 @@ check_file_exists "./configure_git.sh"
 # Verificar y ejecutar el script que agrega Windows a GRUB
 check_file_exists "./configure_grub.sh"
 
+echo -e "${GREEN}Instalando Yay...${NC}"
+git clone https://aur.archlinux.org/yay.git
+cd yay
+sudo -u $USER makepkg -si --noconfirm
+cd ..
+sudo rm -rf yay
+
 echo -e "${GREEN}Instalación de dotfiles completada.${NC}"
