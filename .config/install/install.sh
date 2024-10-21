@@ -25,5 +25,7 @@ echo -e "${GREEN}Instalando Paquetes Oficiales de Archlinux...${NC}"
 check_file_exists "./install-official-packages.sh"
 echo -e "${GREEN}Se termino de instalar los paquetes oficiales de Archlinux...${NC}"
 
+# Verificar y ejecutar el script de configuracion de Git
+check_file_exists "./configure_git.sh"
 
 echo -e "${GREEN}Instalación de dotfiles completada.${NC}"
