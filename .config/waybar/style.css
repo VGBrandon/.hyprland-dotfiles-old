@@ -136,48 +136,48 @@ button:hover {
 
 #custom-power{
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #cpu{
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #memory{
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #pulseaudio{
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 15px;
 }
 
 #network {
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #custom-swwwallpaper {
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #custom-toggle_filter_light_blue{
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
@@ -224,14 +224,14 @@ button:hover {
 
 #custom-screenshot{
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #tray {
   background-color: #e2504c;
-  /*background-color: @color1; /* Aplicando nuevo color de pywal16*/
+  /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 10px;
 }
