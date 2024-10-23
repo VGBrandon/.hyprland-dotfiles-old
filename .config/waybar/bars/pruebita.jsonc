@@ -1,0 +1,26 @@
+{
+  "output":"HDMI-A-1",
+  "layer": "top",
+  "height":30,
+  "position": "top",
+  "spacing": 4,
+  "modules-left":[],
+  "modules-center": [
+    "clock"
+  ],
+  "modules-right":[
+    "pulseaudio",
+    "cpu",
+    "memory",
+    "custom/hyprshade",
+    "custom/power"
+  ],
+  "include":[
+    "$HOME/.config/waybar/modules/clock.jsonc",
+    "$HOME/.config/waybar/modules/cpu.jsonc",
+    "$HOME/.config/waybar/modules/memory.jsonc",
+    "$HOME/.config/waybar/modules/power.jsonc",
+    "$HOME/.config/waybar/modules/hyprshade.jsonc"
+  ]
+}
+
