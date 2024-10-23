@@ -1,0 +1,6 @@
+{
+  "custom/hyprshade":{
+      "format": "",
+      "on-click":"$HOME/.config/waybar/scripts/toggle-hyprshade.sh"
+  },
+}
