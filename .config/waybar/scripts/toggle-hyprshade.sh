@@ -3,6 +3,7 @@
 # Archivo de estado
 STATE_FILE="$HOME/.config/hyprshade/state_file"  # Ajusta la ruta según corresponda
 
+#Editar para que si no existe se cree el archivo
 # Leer el estado actual
 if [ -f "$STATE_FILE" ]; then
     source "$STATE_FILE"
@@ -20,7 +21,7 @@ if [ "$actived" = "true" ]; then
     echo "actived=false" > "$STATE_FILE"
 else
     # Activar el filtro
-    hyprshade on blue-light-filter
+    hyprshade on ~/.hyprland-dotfiles/.config/hypr/shaders/my-shader.glsl
     echo "Filtro de luz azul activado."
     # Actualizar el estado
     echo "actived=true" > "$STATE_FILE"
