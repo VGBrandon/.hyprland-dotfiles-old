@@ -37,3 +37,4 @@ ripgrep                   # Busqueda rapida de texto
 swappy                    # Capturas de pantalla
 nwg-displays              # Gestor de pantallas
 ttf-font-awesome          # Fuente Awesome
+pavucontrol               # Mezclador de sonido
