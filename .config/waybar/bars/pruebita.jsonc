@@ -4,7 +4,10 @@
   "height":30,
   "position": "top",
   "spacing": 4,
-  "modules-left":[],
+  "modules-left":[
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
   "modules-center": [
     "clock"
   ],
@@ -13,6 +16,7 @@
     "cpu",
     "memory",
     "custom/hyprshade",
+    "tray",
     "custom/power"
   ],
   "include":[
@@ -20,7 +24,11 @@
     "$HOME/.config/waybar/modules/cpu.jsonc",
     "$HOME/.config/waybar/modules/memory.jsonc",
     "$HOME/.config/waybar/modules/power.jsonc",
-    "$HOME/.config/waybar/modules/hyprshade.jsonc"
+    "$HOME/.config/waybar/modules/hyprshade.jsonc",
+    "$HOME/.config/waybar/modules/pulseaudio.jsonc",
+    "$HOME/.config/waybar/modules/hyprland-workspaces.jsonc",
+    "$HOME/.config/waybar/modules/tray.jsonc",
+    "$HOME/.config/waybar/modules/hyprland-window.jsonc"
   ]
 }
 
