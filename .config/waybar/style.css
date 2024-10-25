@@ -129,48 +129,58 @@ button:hover {
 }
 
 #clock {
-    background-color: #e2504c; /* Color de fondo principal */
+    background-color: #1f2020; /* Color de fondo principal */
     /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
     border-radius: 10px;
+    border-color:#7fbeb3;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #custom-power{
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #cpu{
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #memory{
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #pulseaudio{
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 15px;
 }
 
 #network {
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
 }
 
 #custom-swwwallpaper {
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
@@ -178,6 +188,8 @@ button:hover {
 
 #custom-toggle_filter_light_blue{
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   border-radius: 10px;
   padding-right: 13px;
 }
@@ -223,7 +235,8 @@ button:hover {
 }
 
 #custom-screenshot{
-  background-color: #e2504c;
+  background-color: #1f2020;
+  border: 2px solid #7fbeb3;
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
