@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.15);
     /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
     color: #ffffff;
     transition-property: background-color;
@@ -29,13 +29,13 @@ window#waybar.solo {
 
 /* Separacion de la barra con el top */
 .modules-right {
-    margin: 10px 10px 0px 0;
+    margin: 5px 10px 5px 0px;
 }
 .modules-center {
-    margin: 10px 0 0px 0;
+    margin: 5px 0px 5px 0px;
 }
 .modules-left {
-    margin: 10px 0 0px 10px;
+    margin: 5px 0px 5px 10px;
 }
 
 window#waybar.termite {
@@ -132,14 +132,11 @@ button:hover {
     background-color: #1f2020; /* Color de fondo principal */
     /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
     border-radius: 10px;
-    border-color:#7fbeb3;
-    border-width: 2px;
-    border-style: solid;
 }
 
 #custom-power{
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
@@ -147,8 +144,7 @@ button:hover {
 
 #cpu{
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
@@ -156,7 +152,7 @@ button:hover {
 
 #memory{
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
@@ -164,7 +160,7 @@ button:hover {
 
 #pulseaudio{
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 15px;
@@ -172,7 +168,7 @@ button:hover {
 
 #network {
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
@@ -180,7 +176,7 @@ button:hover {
 
 #custom-swwwallpaper {
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   border-radius: 10px;
   padding-right: 13px;
@@ -189,7 +185,7 @@ button:hover {
 #custom-hyprshade{
   /*background-color: @color1;*/ /* Aplicando nuevo color de pywal16*/
   background-color: #1f2020;
-  border: 2px solid #7fbeb3;
+  /*border: 2px solid #7fbeb3;*/
   border-radius: 10px;
   padding-right: 13px;
 }
