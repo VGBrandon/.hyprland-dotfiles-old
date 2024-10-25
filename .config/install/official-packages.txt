@@ -39,3 +39,4 @@ nwg-displays              # Gestor de pantallas
 ttf-font-awesome          # Fuente Awesome
 pavucontrol               # Mezclador de sonido
 lf                        # Administrador de archivos en la terminal
+make                      # Herramienta para neovim
