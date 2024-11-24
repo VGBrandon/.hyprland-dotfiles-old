@@ -5,3 +5,4 @@
 .cache/swww/
 .config/gtk-3.0/
 .config/hyprshade/
+.config/nvim/lazy-lock.json
