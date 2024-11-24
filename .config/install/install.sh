@@ -34,6 +34,14 @@ echo -e "    ____           __        __                __                      
 check_file_exists "./install-official-packages.sh"
 echo -e "${GREEN}Se termino de instalar los paquetes oficiales de Archlinux...${NC}"
 
+echo -e "   ______            _____                                _______ __ 
+  / ____/___  ____  / __(_)___ ___  ___________ ______   / ____(_) /_
+ / /   / __ \\/ __ \\/ /_/ / __ \`/ / / / ___/ __ \`/ ___/  / / __/ / __/
+/ /___/ /_/ / / / / __/ / /_/ / /_/ / /  / /_/ / /     / /_/ / / /_  
+\\____/\\____/_/ /_/_/ /_/\\__, /\\__,_/_/   \\__,_/_/      \\____/_/\\__/  
+                       /____/                                        
+"
+
 # Verificar y ejecutar el script de configuracion de Git
 check_file_exists "./configure_git.sh"
 
