@@ -22,6 +22,15 @@ echo -e "${GREEN}Iniciando la instalación de dotfiles...${NC}"
 
 # Verificar y ejecutar el script de instalación de paquetes oficiales
 echo -e "${GREEN}Instalando Paquetes Oficiales de Archlinux...${NC}"
+
+echo -e "    ____           __        __                __                                      __                     _____      _       __         
+   /  _/___  _____/ /_____ _/ /___ _____  ____/ /___     ____  ____ _____ ___  _____  / /____  _____   ____  / __(_)____(_)___ _/ /__  _____
+   / // __ \/ ___/ __/ __ \`/ / __ \`/ __ \\/ __  / __ \\   / __ \\/ __ \`/ __ \`/ / / / _ \\/ __/ _ \\/ ___/  / __ \\/ /_/ / ___/ / __ \`/ / _ \\/ ___/
+ _/ // / / (__  ) /_/ /_/ / / /_/ / / / / /_/ / /_/ /  / /_/ / /_/ / /_/ / /_/ /  __/ /_/  __(__  )  / /_/ / __/ / /__/ / /_/ / /  __(__  ) 
+/___/_/ /_/____/\\__/\\__,_/_/\\__,_/_/ /_/\\__,_/\\____/  / .___/\\__,_/\\__, /\\__,_/\\___/\\__/\\___/____/   \\____/_/ /_/\\___/_/\\__,_/_/\\___/____/  
+                                                     /_/             /_/                                                                    
+"
+
 check_file_exists "./install-official-packages.sh"
 echo -e "${GREEN}Se termino de instalar los paquetes oficiales de Archlinux...${NC}"
 
