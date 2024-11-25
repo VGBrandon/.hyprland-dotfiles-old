@@ -42,3 +42,4 @@ lf                        # Administrador de archivos en la terminal
 make                      # Herramienta para neovim
 unzip                     # Descomprimidor de archivos para neovim
 gcc                       # Conjunto de compiladores para neovim
+zoxide                    # Comando cd mas inteligente
