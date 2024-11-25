@@ -28,4 +28,5 @@ require("lazy").setup({
 	require("plugins.misc"),
 	require("plugins.live-server"),
 	require("plugins.oil"),
+	require("plugins.lazygit"),
 })
