@@ -44,3 +44,4 @@ unzip                     # Descomprimidor de archivos para neovim
 gcc                       # Conjunto de compiladores para neovim
 zoxide                    # Comando cd mas inteligente
 fzf                       # Filtro interactivo para busquedas complejas
+shotwell                  # Visor de imagenes
