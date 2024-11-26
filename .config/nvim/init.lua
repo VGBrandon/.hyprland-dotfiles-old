@@ -29,4 +29,5 @@ require("lazy").setup({
 	require("plugins.live-server"),
 	require("plugins.oil"),
 	require("plugins.lazygit"),
+	require("plugins.mini_icons"),
 })
