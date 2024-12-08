@@ -38,7 +38,7 @@ swappy                    # Capturas de pantalla
 nwg-displays              # Gestor de pantallas
 ttf-font-awesome          # Fuente Awesome
 pavucontrol               # Mezclador de sonido
-lf                        # Administrador de archivos en la terminal
+yazi                        # Administrador de archivos en la terminal
 make                      # Herramienta para neovim
 unzip                     # Descomprimidor de archivos para neovim
 gcc                       # Conjunto de compiladores para neovim
