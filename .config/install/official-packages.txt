@@ -1,6 +1,6 @@
 # Paquetes del repositorio oficial de Arch Linux
 
-wezterm                   # Emulador de terminal
+kitty                   # Emulador de terminal
 waybar                    # Barra de estado para Wayland
 neofetch                  # Muestra informacion del sistema
 thunar                    # Administrador de archivos
