@@ -79,6 +79,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # Editando el .zshrc para usar los plugins
 
+# Instalando plugin manager para zsh (ya no se usara ohmyzsh)
+convertir_a_ascii "Instalando Zinit" "red"
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+
 convertir_a_ascii "Configurando .zshrc" "blue"
 # Modificar el archivo .zshrc para actualizar la línea de plugins
 sed -i '/^plugins=(git)/c\plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' ~/.zshrc
