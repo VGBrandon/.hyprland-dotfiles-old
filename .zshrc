@@ -1,6 +1,10 @@
-# Codigo para eliminar el espaciado extra del principio que pone starship
+# Solucion para el espaciado extra de starship y el bug al abrir terminal
+FIRST_PROMPT=1
+
 precmd() {
-    if [[ $LAST_COMMAND != "clear" ]]; then
+    if [[ $FIRST_PROMPT -eq 1 ]]; then
+        FIRST_PROMPT=0
+    elif [[ $LAST_COMMAND != "clear" ]]; then
         echo ""
     fi
 }
