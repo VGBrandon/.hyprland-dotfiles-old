@@ -15,6 +15,20 @@ preexec() {
 
 eval "$(starship init zsh)"
 
+# eza (better 'ls')
+alias l="eza --icons"
+alias ls="eza --icons"
+alias ll="eza -lg --icons"
+alias la="eza -lag --icons"
+alias lt="eza -lTg --icons"
+alias lt1="eza -lTg --level=1 --icons"
+alias lt2="eza -lTg --level=2 --icons"
+alias lt3="eza -lTg --level=3 --icons"
+alias lta="eza -lTag --icons"
+alias lta1="eza -lTag --level=1 --icons"
+alias lta2="eza -lTag --level=2 --icons"
+alias lta3="eza -lTag --level=3 --icons"
+
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
     print -P "%F{33} %F{220}Installing %F{33}ZDHARMA-CONTINUUM%F{220} Initiative Plugin Manager (%F{33}zdharma-continuum/zinit%F{220})…%f"
