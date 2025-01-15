@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Instalar figlet para mostrar titulos
+sudo pacman -S --noconfirm figlet
+
 # Incluyendo otros scripts
 source ./convert_to_ascii_art.sh
 
