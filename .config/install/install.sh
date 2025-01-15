@@ -26,9 +26,9 @@ check_file_exists() {
 # Mensaje de inicio
 convertir_a_ascii "Iniciando la instalacion de Dotfiles" "red"
 
-# Verificar y ejecutar el script de instalación de paquetes oficiales
 convertir_a_ascii "Instalando Paquetes Oficiales de Archlinux" "blue"
 
+# Verificar y ejecutar el script de instalación de paquetes oficiales
 check_file_exists "./install-official-packages.sh"
 
 convertir_a_ascii "Configurando Git" "red"
@@ -81,15 +81,6 @@ nwg-look -a
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 #git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # Editando el .zshrc para usar los plugins
-
-# Instalando plugin manager para zsh (ya no se usara ohmyzsh)
-convertir_a_ascii "Instalando Zinit" "red"
-bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
-
-convertir_a_ascii "Configurando .zshrc" "blue"
-# Modificar el archivo .zshrc para actualizar la línea de plugins
-sed -i '/^plugins=(git)/c\plugins=(git zsh-autosuggestions zsh-syntax-highlighting)' ~/.zshrc
-# Esto talvez se cambie en el futuro y sea un archivo de mis dotfiles
 
 # Agregar configuracion adicional para Git
 convertir_a_ascii "Agregando configuracion adicional de git para las llaves" "green"
