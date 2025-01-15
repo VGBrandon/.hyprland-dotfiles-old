@@ -12,7 +12,7 @@ precmd() {
 preexec() {
     LAST_COMMAND=$1
 }
-
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 eval "$(starship init zsh)"
 
 # eza (better 'ls')
