@@ -70,13 +70,13 @@ cp -r gruvbox-material-gtk/icons/* ~/.icons
 sudo rm -rf gruvbox-material-gtk
 nwg-look -a
 
-convertir_a_ascii "Instalando Oh My Zsh y plugins" "red"
+#convertir_a_ascii "Instalando Oh My Zsh y plugins" "red"
 
 # Instalar ohmyzsh y plugins
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 #Plugins
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # Editando el .zshrc para usar los plugins
 
 # Instalando plugin manager para zsh (ya no se usara ohmyzsh)
