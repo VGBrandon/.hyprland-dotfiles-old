@@ -47,3 +47,4 @@ fzf                       # Filtro interactivo para busquedas complejas
 shotwell                  # Visor de imagenes
 lazygit                   # UI para git
 starship                  # Prompt customizable para shell
+eza                       # Comando ls mejorado
